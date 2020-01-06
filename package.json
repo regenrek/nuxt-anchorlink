@@ -1,6 +1,12 @@
 {
     "name": "@nuxtjs/anchorlink",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "anchorlink",
-    "main": "lib/module.js"
+    "main": "lib/module.js",
+    "scripts": {
+        "release": "standard-version"
+    },
+    "devDependencies": {
+        "standard-version": "^7.0.1"
+    }
 }
